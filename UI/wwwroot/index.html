@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Basic Block game</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.1/pixi.min.js"></script>
+    <script src="src/game_main.js"></script>
+</head>
+<body>
+<div>
+    <div class="font-load">&nbsp;</div><!--Force Fonts to load-->
+    <h1>The Game Page</h1>
+    <div id="game"></div>
+    <script>
+        $(document).ready(function() {
+            $("#game").blockGame({canvasSize:{x:900,y:800}});
+        });
+    </script>
+</div>
+</body>
+</html>

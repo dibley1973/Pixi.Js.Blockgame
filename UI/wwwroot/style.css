@@ -1,0 +1,11 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+.font-load {
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+}
